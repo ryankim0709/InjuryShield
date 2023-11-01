@@ -1,0 +1,107 @@
+.projectSideNavContainer {
+    flex: 0 1 auto !important;
+    overflow: visible !important;
+    width: 55px;
+    height: 100vh;
+    border-right: 1px solid var(--border); 
+    position: sticky;
+    min-height: 500px;
+    z-index: 10000;
+    top: 0px;
+}
+
+.projectAppContainer {
+    flex: 1;
+    flex-direction: column;
+}
+
+.projectAppHome {
+    margin: 2px 2px 2px 2px;
+    border-bottom: 1px solid var(--border);
+}
+.projectAppGroup {
+    margin: 2px 2px 2px 2px;
+    border-bottom: 1px solid var(--border);
+}
+  
+.projectUserContainer {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+}
+  
+.projectUserGroup {
+    margin: 2px 2px 2px 2px;
+}
+
+.filterWhite {
+    filter: invert(95%) sepia(100%) saturate(0%) hue-rotate(79deg) brightness(104%) contrast(90%);
+}
+  
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.iconBox {
+    padding-right: 5px;
+    cursor: pointer;
+    margin: 10px 1px 10px 1px;
+    height: 35px;
+}
+
+.icons {
+    margin-top: 5px;
+    height: 20px;
+    span > i, :global(.icon-log-out) i {
+        font-size: 16px;
+        color: var(--secondary);
+    }
+    .popoverWrapper {
+        display: inline-block;
+        margin-right: 5px;
+        &:hover {
+            i {
+                color: var(--primary);
+            }
+        }
+    }
+    .settings {
+        ul {
+            z-index: 2;
+        }
+    }
+}
+
+.logout {
+    padding-left:7px;
+}
+
+a:link, a:visited {
+    color: var(--secondary);
+}
+
+.iconButton {
+    display: inline-flex;
+    height: 35px;
+    align-items: center;
+    margin-left: 7px;
+    padding: 0px 0px;
+    color: #7c7878;
+    cursor: pointer;
+    border-radius: 10% 10% 10% 10%;
+  }
+  
+  .icon {
+    padding-top: 5px;
+    color: white;
+  }
+  
+footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}

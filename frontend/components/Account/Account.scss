@@ -1,0 +1,88 @@
+.account {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.preferenceDashboardContainer {
+    align-items: center;
+    flex: 1; 
+    font-size: 12px;
+    border-left: 1px solid var(--border);
+    height: 100vh;
+    overflow-y: scroll;
+    padding-bottom: 120px;
+}
+
+.preferenceContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 18px;
+    margin-top: 25px;
+    width: 800px;
+    border: 1px solid var(--border);
+    border-radius: 1% 1% 1% 1%;
+    background-color: var(--bg-400);
+}
+
+.preferenceRowTitle {
+    display: flex;
+    font-size: 16px;
+    padding: 10px 15px 10px 20px;
+    height: 45px;
+    border-bottom: 1px solid var(--border); 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.preferenceRow {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 15px 0px 20px;
+    font-size: 13px;
+    height: 50px;
+    align-items: center;
+
+    .text {
+        display: flex;
+        width: 200px;
+    }
+
+    .input {
+        display: flex;
+        align-items: center;
+        padding-left: 15px; 
+        padding-top: 5px; 
+        padding-bottom: 5px; 
+        width: 540px;
+        height: 40px;
+        //background-color: hwb(0 13% 87%);
+        border-radius: 1% 1% 1% 1%;
+
+        .inputField {
+            color: var(--fg);
+        }
+    }
+
+    .inputMenu {
+        display: flex;
+        align-items: center;
+        padding-left: 15px; 
+        width: 400px;
+    }
+}
+
+.preferenceRow:last-child{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 15px 15px 20px;
+    font-size: 13px;
+    height: 50px;
+    align-items: center;
+}

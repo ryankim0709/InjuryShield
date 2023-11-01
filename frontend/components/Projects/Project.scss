@@ -1,0 +1,16 @@
+.projectPageContainer {
+    display: flex;
+    flex-direction: row;
+    height: '100vh';
+}
+
+.root {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

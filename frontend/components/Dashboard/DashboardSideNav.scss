@@ -1,0 +1,112 @@
+.dashboardSideNavContainer {
+    display: flex;
+    height: 100vh;
+    width: 280px;
+    flex-direction: column;
+}
+  
+.topTitle {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 1px solid var(--border);
+    justify-content: flex-start;
+
+    .titleBox {
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        font-size: 17px;
+        padding-left: 25px;
+    }
+  }
+
+.sideItemContainer {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--border); 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+}
+
+.sideItem {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    font-size: 13px;
+
+    .title {
+        display: flex;
+        color: var(--secondary);
+    }
+
+    .linked {
+        display: flex;
+        color: var(--fg); 
+    }
+}
+  
+.sideItemList {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 13px;
+
+    .title {
+        display: flex;
+        color: var(--secondary);
+    }
+
+    .linked {
+        display: flex;
+        padding-bottom: 5px;
+        color: var(--secondary-100); 
+    }
+}
+  
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.icons {
+    margin-top: 5px;
+    height: 20px;
+    span > i, :global(.icon-log-out) i {
+        font-size: 16px;
+        color: var(--secondary);
+    }
+    .popoverWrapper {
+        display: inline-block;
+        margin-right: 5px;
+        &:hover {
+            i {
+                color: var(--primary);
+            }
+        }
+    }
+    .settings {
+        ul {
+            z-index: 2;
+        }
+    }
+}
+
+.logoutIcon {
+    color: var(--secondary);
+}
+
+.logout {
+    padding-left:7px;
+    color: var(--secondary);
+}
+
+a:link, a:visited {
+    color: var(--secondary);
+}
