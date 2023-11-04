@@ -8,7 +8,7 @@ InjuryShield has been developed for teen athletes to prevent their injury by tra
 Please visit https://app.runningcrews.chat
 
 # Demo account is available
-injuryshield.demo@gmail.com / injuryshield.demo123 (pw)
+injuryshield.demo@gmail.com / injuryshielddemo123 (pw)
 
 # Any question or feedback
 please email to ryankim0709@gmail.com
