@@ -4,5 +4,11 @@ InjuryShield has been developed for teen athletes to prevent their injury by tra
 
 <img width="392" alt="InjuryShield" src="https://github.com/ryankim0709/InjuryShield/assets/80545744/ae7fef62-ce43-42e2-8cf6-81540a777ed4">
 
-# Web-based application
+# Web-based application is live 
 Please visit https://app.runningcrews.chat
+
+# Demo account is available
+injuryshield.demo@gmail.com / injuryshield.demo123 (pw)
+
+# Any question or feedback
+please email to ryankim0709@gmail.com
