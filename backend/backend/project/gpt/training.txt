@@ -1,0 +1,5 @@
+- Start Records - 
+{% for r in trrecord %}
+{{ r.record_date|safe }}|{{ r.title|safe }}|{{ r.running_distance|safe }}|{{ r.training_duration|safe }}|{{ r.strength_training|safe }}|{{ r.exertion_level|safe }}|{{ r.training_success|safe }}|{{ recovery_level|safe }}|{{ r.has_injury|safe }}|{{ r.athletic_participation|safe }} 
+{% endfor %}
+- End Records - 

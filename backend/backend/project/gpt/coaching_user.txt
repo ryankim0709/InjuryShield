@@ -1,0 +1,13 @@
+- Start insight summary - 
+{{ insight|safe}}
+- End insight summary - 
+
+- Start injury summary - 
+{{ injury|safe}}
+- End injury summary - 
+
+- Start prevention method - 
+{% for r in prevention %}
+{{ r|safe }}
+{% endfor %}
+- End prevention method - 
